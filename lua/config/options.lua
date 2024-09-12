@@ -16,7 +16,6 @@ vim.opt.smartcase = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.softtabstop = 2
-vim.opt.guicursor = ""
 vim.opt.expandtab = true
 
 vim.opt.wrap = false
@@ -37,4 +36,3 @@ vim.opt.scrolloff = 8
 vim.opt.hlsearch = true
 
 vim.g.have_nerd_font = true
-vim.opt.guifont = "FiraCode Nerd"
