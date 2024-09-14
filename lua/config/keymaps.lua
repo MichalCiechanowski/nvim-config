@@ -19,3 +19,17 @@ vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper win
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+local ls = require("luasnip")
+
+vim.keymap.set({ "i", "s" }, "<c-l>", function()
+	if ls.expand_or_jumpable() then
+		ls.expand_or_jump()
+	end
+end, { silent = true })
+
+vim.keymap.set({ "i", "s" }, "<c-h>", function()
+	if ls.jumpable(-1) then
+		ls.jump(-1)
+	end
+end, { silent = true })
