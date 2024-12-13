@@ -13,7 +13,9 @@ return {
 			end,
 		},
 	},
-	vim.keymap.set("n", "<leader>a", "<CMD>Oil<CR>", { desc = "Open parent directory" }),
+	vim.keymap.set("n", "<leader>a", function()
+		vim.cmd("Oil")
+	end, { desc = "Open parent directory" }),
 	-- Optional dependencies
 	dependencies = { { "echasnovski/mini.icons", opts = {} } },
 	-- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if prefer nvim-web-devicons
