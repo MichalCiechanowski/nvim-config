@@ -8,7 +8,7 @@ return {
 		skip_confirm_for_simple_edits = true,
 		view_options = {
 			show_hidden = true,
-			is_hidden_file = function(name, _)
+			is_hidden_file = function(name)
 				return name == "../"
 			end,
 		},
