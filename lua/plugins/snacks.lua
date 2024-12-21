@@ -20,7 +20,7 @@ local pokemon = {
 	"salamence",
 	"metagross",
 	-- "kyogre",
-	"rayquaza",
+	-- "rayquaza",
 	-- gen 4
 	"torterra",
 	"infernape",
@@ -30,7 +30,7 @@ local pokemon = {
 	"roserade",
 	"bronzong",
 	"garchomp",
-	"drapion",
+	-- "drapion",
 	"rhyperior",
 	"electivire",
 	"magmortar",
@@ -58,6 +58,7 @@ local pokemon = {
 	-- "sirfetchd",
 	"dragapult",
 }
+
 return {
 	"folke/snacks.nvim",
 	---@type snacks.Config
