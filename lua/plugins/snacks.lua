@@ -6,6 +6,7 @@ local pokemon = {
 	"blastoise",
 	"raichu",
 	"machamp",
+	"slaking",
 	"gengar",
 	"gyarados",
 	"snorlax",
