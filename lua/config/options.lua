@@ -36,3 +36,5 @@ vim.opt.scrolloff = 8
 vim.opt.hlsearch = true
 
 vim.g.have_nerd_font = true
+
+vim.opt.swapfile = false
