@@ -31,7 +31,7 @@ vim.opt.splitbelow = true
 
 vim.opt.undofile = true
 
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 10
 
 vim.opt.hlsearch = true
 
